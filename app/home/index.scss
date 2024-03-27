@@ -41,8 +41,8 @@
       height: 66px;
       background: url("/images/l-cir.png") no-repeat;
       position: absolute;
-      left: -7px;
-      bottom: 7px;
+      left: -10px;
+      bottom: 9px;
     }
   }
   .op-c {
@@ -134,9 +134,7 @@
     position: relative;
     margin-top: 30px;
     &-info {
-      width: 322px;
-      height: 866px;
-      background: url("/images/rulers-a.png") no-repeat;
+      // background: url("/images/rulers-a.png") no-repeat;
       background-size: contain;
       margin: auto;
       position: relative;

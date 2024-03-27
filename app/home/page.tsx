@@ -47,7 +47,16 @@ const Home = () => {
       {/* <CircleG /> */}
       <div className="main-g relative">
         <div className="f-c"></div>
-        <div className="m-img"></div>
+        {/* <div className="m-img"></div> */}
+        <Image
+          src="/images/m-img.png"
+          quality={100}
+          alt="g-icon"
+          className="m-img"
+          width={260}
+          height={305}
+          priority
+        />
         <div className="l-c"></div>
       </div>
       <div className="op-c">
@@ -75,7 +84,16 @@ const Home = () => {
         <Button size="small">Read Whitepaper</Button>
       </div>
       <div className="mint">
-        <div className="mint-info"></div>
+        {/* <div className="mint-info"></div> */}
+        <Image
+          src="/images/rulers-a.png"
+          quality={100}
+          alt="g-icon"
+          className="mint-info"
+          width={322}
+          height={866}
+          priority
+        />
         <CircleG />
         <CircleG />
       </div>
