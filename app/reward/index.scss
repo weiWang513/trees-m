@@ -88,7 +88,7 @@
       color: #00ff0a;
       line-height: 80px;
       position: relative;
-      z-index: 20;
+      z-index: 2;
       backdrop-filter: blur(65px);
       .t {
         font-size: 24px;
@@ -168,6 +168,7 @@
     text-align: center;
     position: relative;
     backdrop-filter: blur(65px);
+    overflow: hidden;
     p {
     }
     .circle-g {
@@ -179,7 +180,7 @@
       font-size: 20px;
       color: #fff;
       position: relative;
-      z-index: 20;
+      z-index: 2;
     }
     .copy {
       display: inline-block;
@@ -189,7 +190,7 @@
       background-size: contain;
       margin-left: 20px;
       position: relative;
-      z-index: 20;
+      z-index: 2;
     }
     .m {
       font-size: 14px;
@@ -217,7 +218,7 @@
     width: 375px;
     padding: 0px 30px;
     position: relative;
-    z-index: 20;
+    z-index: 2;
     .circle-g {
       position: absolute;
       width: 375px;
