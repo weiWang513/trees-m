@@ -127,19 +127,8 @@
             margin-right: 10px;
           }
         }
-        .x {
-          display: inline-block;
-          width: 18px;
-          height: 18px;
-          background: url("/images/x.png") no-repeat;
-          background-size: contain;
-        }
-        .t {
-          display: inline-block;
-          width: 18px;
-          height: 18px;
-          background: url("/images/t.png") no-repeat;
-          background-size: contain;
+        img {
+          margin-right: 10px;
         }
       }
       .adm-button:first-child {

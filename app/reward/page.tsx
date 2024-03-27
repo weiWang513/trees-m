@@ -43,10 +43,24 @@ const Reward = () => {
         <p className="m">Invite friends to earn more Trees XP</p>
         <p className="op flex flex-row">
           <Button size="small">
-            <i className="x"></i>Twitter
+            <Image
+              src="/svg/t.svg"
+              alt="g-icon"
+              width={18}
+              height={18}
+              priority
+            />
+            Twitter
           </Button>
           <Button size="small">
-            <i className="t"></i>Telegram
+            <Image
+              src="/svg/x.svg"
+              alt="g-icon"
+              width={18}
+              height={18}
+              priority
+            />
+            Telegram
           </Button>
         </p>
       </div>

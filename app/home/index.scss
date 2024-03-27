@@ -32,8 +32,6 @@
     .m-img {
       width: 260px;
       height: 305px;
-      background: url("/images/m-img.png") no-repeat;
-      background-size: contain;
       position: relative;
     }
     .l-c {
@@ -193,7 +191,7 @@
       border-radius: 16px;
       text-align: center;
       font-size: 16px;
-      backdrop-filter: blur(20px);
+      backdrop-filter: blur(58px);
       z-index: 2;
       color: #fff;
       .line {
@@ -228,6 +226,11 @@
     width: 320px;
     margin: auto;
     margin-top: 48px;
+    .h {
+      img {
+        margin: 0 10px;
+      }
+    }
     &-i {
       margin-top: 32px;
     }
@@ -245,6 +248,7 @@
   .qa-i {
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
   }
   .ac {
     border-color: #00ff0a;

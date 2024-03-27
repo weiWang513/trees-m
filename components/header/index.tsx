@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./index.scss";
 import { Button } from "antd-mobile";
+import Logo from '@/public/svg/logo.svg';
 
 const Header = ({
   showRModal,
@@ -11,7 +12,7 @@ const Header = ({
   return (
     <div className="header fixed flex flex-row items-center justify-between">
       <Image
-        src="/images/logo.png"
+        src="/svg/logo.svg"
         alt="Logo"
         width={77}
         height={19}
@@ -27,13 +28,25 @@ const Header = ({
         >
           Wallet
         </Button>
-        <div
+        <Image
+          src="/svg/menu.svg"
+          alt="Logo"
+          width={24}
+          height={24}
+          priority
           className="menu"
           onClick={() => {
             setShowRModal(!showRModal);
             setShowCModal(false);
           }}
-        ></div>
+        />
+        {/* <div
+          className="menu"
+          onClick={() => {
+            setShowRModal(!showRModal);
+            setShowCModal(false);
+          }}
+        ></div> */}
       </div>
     </div>
   );

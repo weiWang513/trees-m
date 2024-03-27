@@ -11,7 +11,7 @@ export default function Footer({ inner }: any) {
         ) : (
           // <div className="logo"></div>
           <Image
-            src="/images/logo-f.png"
+            src="/svg/logo-f.svg"
             quality={100}
             alt="g-icon"
             className="logo"

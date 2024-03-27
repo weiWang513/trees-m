@@ -52,14 +52,13 @@ const Home = () => {
       {/* <CircleG /> */}
       <div className="main-g relative">
         <div className="f-c"></div>
-        {/* <div className="m-img"></div> */}
         <Image
           src="/images/m-img.png"
           quality={100}
-          alt="g-icon"
+          alt=""
           className="m-img"
           width={260}
-          height={305}
+          height={252}
           priority
         />
         <div className="l-c"></div>
@@ -148,7 +147,7 @@ const Home = () => {
         <CircleG />
       </div>
       <div className="qa">
-        <div className="flex flex-row items-center justify-center text-[#00FF0A]">
+        <div className="h flex flex-row items-center justify-center text-[#00FF0A]">
           Q
           <Image
             src="/images/g-icon.png"
