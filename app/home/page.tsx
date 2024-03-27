@@ -81,7 +81,7 @@ const Home = () => {
           space for deployers of special assets.
         </p>
         <div className="map"></div>
-        <Button size="small">Read Whitepaper</Button>
+        <Button size="small" className="text-3xl">Read Whitepaper</Button>
       </div>
       <div className="mint">
         {/* <div className="mint-info"></div> */}

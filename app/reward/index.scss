@@ -3,7 +3,7 @@
   font-family: "Alum";
   padding-top: 44px;
   background-color: rgba(11, 12, 11, 1);
-  // overflow-x: hidden;
+  overflow-x: hidden;
   .h {
     .circle-g {
       position: absolute;
@@ -168,7 +168,6 @@
     text-align: center;
     position: relative;
     backdrop-filter: blur(65px);
-    overflow: hidden;
     p {
     }
     .circle-g {
