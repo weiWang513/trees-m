@@ -1,0 +1,117 @@
+.seed-mint {
+  width: 375px;
+  font-family: "Alum";
+  padding-top: 44px;
+  background-color: rgba(11, 12, 11, 1);
+  .h {
+    .circle-g {
+      position: absolute;
+      top: -120px;
+      left: -100px;
+    }
+  }
+  .mint-h {
+    width: 132px;
+    height: 132px;
+    margin: auto;
+    background: url("/images/mint-h.png") no-repeat;
+    background-size: contain;
+    position: relative;
+  }
+  // .circle-g:nth-child(2) {
+  //   position: absolute;
+  //   top: 620px;
+  //   right: -10px;
+  // }
+  .main-g {
+    width: 260px;
+    margin: auto;
+    margin-top: 60px;
+    .f-c {
+      width: 66px;
+      height: 66px;
+      background: url("/images/circle-c.png") no-repeat;
+      position: absolute;
+      top: 5px;
+      right: -0px;
+    }
+    .m-img {
+      width: 260px;
+      height: 305px;
+      background: url("/images/m-img.png") no-repeat;
+      background-size: contain;
+      position: relative;
+    }
+    .l-c {
+      width: 85px;
+      height: 66px;
+      background: url("/images/l-cir.png") no-repeat;
+      position: absolute;
+      left: -7px;
+      bottom: 7px;
+    }
+  }
+  .op-c {
+    margin: auto;
+    margin-top: -10px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    .circle-g {
+      position: absolute;
+      top: 120px;
+      right: -150px;
+      z-index: 0;
+    }
+    p {
+      position: relative;
+      z-index: 2;
+    }
+    .t {
+      font-size: 48px;
+      color: rgba(0, 255, 10, 1);
+    }
+    .m {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .b {
+      font-size: 14px;
+      margin: 16px 30px;
+    }
+    .op {
+      margin-top: 20px;
+      .adm-button {
+        height: 41px;
+        flex: 1;
+        font-size: 24px;
+        border-radius: 8px;
+        border: none;
+      }
+      .adm-button:first-child {
+        margin-right: 10px;
+        flex: 0 0 114px;
+      }
+      .adm-button:last-child {
+        background-color: rgba(0, 255, 10, 1);
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+    .mint-m {
+      display: block;
+      width: 315px;
+      height: 237px;
+      background: url("/images/mint-m.png") no-repeat;
+      background-size: contain;
+      margin: auto;
+    }
+    .adm-button {
+      width: 200px;
+    }
+  }
+  .adm-button {
+    border-radius: 6px;
+  }
+}

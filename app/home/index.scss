@@ -1,0 +1,183 @@
+.home {
+  width: 375px;
+  font-family: "Alum";
+  padding-top: 44px;
+  background-color: rgba(11, 12, 11, 1);
+  .h {
+    .circle-g {
+      position: absolute;
+      top: -120px;
+      left: -100px;
+    }
+  }
+  // .circle-g:nth-child(2) {
+  //   position: absolute;
+  //   top: 620px;
+  //   right: -10px;
+  // }
+  .main-g {
+    width: 260px;
+    margin: auto;
+    margin-top: 60px;
+    .f-c {
+      width: 66px;
+      height: 66px;
+      background: url("/images/circle-c.png") no-repeat;
+      position: absolute;
+      top: 5px;
+      right: -0px;
+    }
+    .m-img {
+      width: 260px;
+      height: 305px;
+      background: url("/images/m-img.png") no-repeat;
+      background-size: contain;
+      position: relative;
+    }
+    .l-c {
+      width: 85px;
+      height: 66px;
+      background: url("/images/l-cir.png") no-repeat;
+      position: absolute;
+      left: -7px;
+      bottom: 7px;
+    }
+  }
+  .op-c {
+    width: 291px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    .circle-g {
+      position: absolute;
+      top: 120px;
+      right: -150px;
+      z-index: 0;
+    }
+    p {
+      position: relative;
+      z-index: 2;
+    }
+    .t {
+      font-size: 48px;
+      color: rgba(0, 255, 10, 1);
+    }
+    .m {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .b {
+      font-size: 48px;
+      line-height: 58px;
+    }
+    .op {
+      margin-top: 20px;
+      .adm-button {
+        height: 41px;
+        flex: 1;
+        font-size: 24px;
+        border-radius: 8px;
+        border: none;
+      }
+      .adm-button:first-child {
+        margin-right: 10px;
+        flex: 0 0 114px;
+      }
+      .adm-button:last-child {
+        background-color: rgba(0, 255, 10, 1);
+      }
+    }
+  }
+  .info {
+    width: 375px;
+    background: url("/images/bg.png") no-repeat;
+    background-size: 375px 76px;
+    margin-top: 20px;
+    padding: 30px 0;
+    padding-top: 60px;
+    text-align: center;
+    position: relative;
+    p {
+
+    }
+    .t {
+      font-size: 36px;
+      color: rgba(0, 255, 10, 1);
+    }
+    .m {
+      font-size: 14px;
+      line-height: 18px;
+      color: #fff;
+      margin-top: 12px;
+      margin: 0 40px;
+    }
+    .map {
+      width: 333px;
+      height: 182px;
+      background: url("/images/cBg.png") no-repeat;
+      background-size: contain;
+      margin: 20px auto;
+    }
+    .adm-button {
+      width: 207px;
+      height: 41px;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(0, 255, 10, 1);
+    }
+  }
+  .mint {
+    position: relative;
+    margin-top: 30px;
+    &-info {
+      width: 322px;
+      height: 866px;
+      background: url("/images/rulers-a.png") no-repeat;
+      background-size: contain;
+      margin: auto;
+    }
+  }
+
+  .qa {
+    width: 320px;
+    margin: auto;
+    margin-top: 48px;
+    &-i {
+      margin-top: 32px;
+    }
+    &-q {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+    &-a {
+      font-size: 14px;
+      color: #fff;
+      padding: 0 20px;
+    }
+  }
+
+  .qa-i {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .ac {
+    border-color: #00ff0a;
+    background-color: rgba(0, 255, 10, 0.1);
+  }
+  .qa-a {
+    transition: all ease-in-out 0.3s;
+    transform-origin: top;
+    overflow: hidden;
+  }
+  .closed {
+    height: 0;
+    opacity: 0;
+    padding: 0;
+  }
+  .open {
+    height: 250px;
+    opacity: 1;
+  }
+}
