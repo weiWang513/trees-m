@@ -76,6 +76,8 @@ const Home = () => {
       </div>
       <div className="mint">
         <div className="mint-info"></div>
+        <CircleG />
+        <CircleG />
       </div>
       <div className="qa">
         <div className="flex flex-row items-center justify-center text-[#00FF0A]">

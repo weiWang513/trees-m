@@ -7,8 +7,10 @@
   .h {
     .circle-g {
       position: absolute;
-      top: -120px;
-      left: -100px;
+      width: 375px;
+      height: 375px;
+      top: -150px;
+      left: -150px;
     }
   }
   // .circle-g:nth-child(2) {
@@ -85,6 +87,9 @@
       padding: 0 20px;
       color: #00ff0a;
       line-height: 80px;
+      position: relative;
+      z-index: 20;
+      backdrop-filter: blur(65px);
       .t {
         font-size: 24px;
         text-align: left;
@@ -145,6 +150,13 @@
         background-color: rgba(0, 255, 10, 1);
       }
     }
+    .circle-g {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: -50px;
+      top: 50px;
+    }
   }
   .info {
     width: 375px;
@@ -155,11 +167,19 @@
     padding-top: 60px;
     text-align: center;
     position: relative;
+    backdrop-filter: blur(65px);
     p {
+    }
+    .circle-g {
+      position: absolute;
+      right: -150px;
+      top: 0px;
     }
     .t {
       font-size: 20px;
       color: #fff;
+      position: relative;
+      z-index: 20;
     }
     .copy {
       display: inline-block;
@@ -168,6 +188,8 @@
       background: url("/images/copy.png") no-repeat;
       background-size: contain;
       margin-left: 20px;
+      position: relative;
+      z-index: 20;
     }
     .m {
       font-size: 14px;
@@ -194,7 +216,17 @@
   .tables {
     width: 375px;
     padding: 0px 30px;
+    position: relative;
+    z-index: 20;
+    .circle-g {
+      position: absolute;
+      width: 375px;
+      height: 375px;
+      right: 0;
+      top: 700px;
+    }
     .h {
+      position: relative;
       p:first-child {
         margin-right: 10px;
       }
@@ -217,9 +249,12 @@
       font-size: 14px;
       color: #fff;
       margin-bottom: 20px;
+      backdrop-filter: blur(65px);
     }
     .tabs {
+      position: relative;
       margin-top: 20px;
+      backdrop-filter: blur(65px);
       p {
         line-height: 32px;
         font-size: 16px;

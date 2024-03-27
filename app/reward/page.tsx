@@ -38,6 +38,7 @@ const Reward = () => {
           <p className="b flex-1">1000</p>
           <i className="r-i"></i>
         </div>
+        <CircleG />
         {/* <CircleG /> */}
         <p className="m">Invite friends to earn more Trees XP</p>
         <p className="op flex flex-row">
@@ -53,8 +54,10 @@ const Reward = () => {
         <p className="t flex items-center justify-center">
           invitation code: 4234234234 <i className="copy"></i>
         </p>
+        <CircleG />
       </div>
       <div className="tables">
+        <CircleG />
         <div className="h flex flex-row">
           {["Terms of participation", "Reward System"].map((item, index) => {
             return (

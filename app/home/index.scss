@@ -6,8 +6,10 @@
   .h {
     .circle-g {
       position: absolute;
-      top: -120px;
-      left: -100px;
+      width: 375px;
+      height: 375px;
+      top: -150px;
+      left: -150px;
     }
   }
   // .circle-g:nth-child(2) {
@@ -137,6 +139,27 @@
       background: url("/images/rulers-a.png") no-repeat;
       background-size: contain;
       margin: auto;
+      position: relative;
+      z-index: 3;
+    }
+    .circle-g {
+      position: absolute;
+      top: 130px;
+      width: 375px;
+      height: 375px;
+      margin: auto;
+      // left: 38px;
+      background-size: cover;
+    }
+    .circle-g:last-child {
+      position: absolute;
+      width: 375px;
+      height: 375px;
+      margin: auto;
+      bottom: -650px;
+      left: -150px;
+      // left: 38px;
+      background-size: cover;
     }
   }
 
