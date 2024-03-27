@@ -160,6 +160,68 @@
       // left: 38px;
       background-size: cover;
     }
+    &-rulers {
+      border: 1px solid #00ff0a;
+      border-radius: 16px;
+      margin: 0 30px;
+      padding-bottom: 20px;
+      backdrop-filter: blur(20px);
+      position: relative;
+      z-index: 2;
+      .tt {
+        font-size: 36px;
+        color: #00ff0a;
+        margin: 0 20px;
+        margin-top: -60px;
+      }
+      .st {
+        font-size: 14px;
+        color: #fff;
+        margin: 0 20px;
+      }
+      &-b {
+        margin-top: 30px;
+        .tt {
+          margin-top: 0;
+        }
+      }
+    }
+    .tables {
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      margin: 0 20px;
+      margin-top: 20px;
+      border-radius: 16px;
+      text-align: center;
+      font-size: 16px;
+      backdrop-filter: blur(20px);
+      z-index: 2;
+      color: #fff;
+      .line {
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        &:last-child {
+          border: none;
+        }
+        i {
+          width: 12px;
+          height: 20px;
+          background: url("/images/g-icon.png") no-repeat;
+          background-size: contain;
+          display: inline-block;
+          margin-right: 5px;
+        }
+        &-i {
+          height: 32px;
+          line-height: 32px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+          &:last-child {
+            border: none;
+          }
+          &:first-child {
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
 
   .qa {

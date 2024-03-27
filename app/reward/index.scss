@@ -231,6 +231,7 @@
         margin-right: 10px;
       }
       p {
+        backdrop-filter: blur(35px);
         line-height: 40px;
         border-radius: 8px;
         border: 1px solid rgba(255, 255, 255, 0.2);

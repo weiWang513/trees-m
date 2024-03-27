@@ -29,6 +29,11 @@ const Home = () => {
     },
   ];
 
+  const tables = [
+    ["Points ranking", "1", "2", "3", "4-10", "11-20", "21-100", "100-500"],
+    ["Get rewarded", "x50", "x30", "x20", "x15", "x10", "x5", "x3"],
+  ];
+
   const [activeKeys, setActiveKeys] = useState<number[]>([]);
   const [showRModal, setShowRModal] = useState(false);
   const [showCModal, setShowCModal] = useState(false);
@@ -81,11 +86,13 @@ const Home = () => {
           space for deployers of special assets.
         </p>
         <div className="map"></div>
-        <Button size="small" className="text-3xl">Read Whitepaper</Button>
+        <Button size="small" className="text-3xl">
+          Read Whitepaper
+        </Button>
       </div>
       <div className="mint">
         {/* <div className="mint-info"></div> */}
-        <Image
+        {/* <Image
           src="/images/rulers-a.png"
           quality={100}
           alt="g-icon"
@@ -93,7 +100,50 @@ const Home = () => {
           width={322}
           height={866}
           priority
-        />
+        /> */}
+        <div className="mint-rulers">
+          <Image
+            src="/images/h-h.png"
+            quality={100}
+            alt="g-icon"
+            width={322}
+            height={170}
+            priority
+          />
+          <p className="tt">MINT Rules</p>
+          <p className="st">Trees Protocol Inscription Public Chain: Solana</p>
+          <p className="st">Trees Protocol Inscription Name: Seed</p>
+          <p className="st">
+            Total number of inscriptions: 40000 (1905 are rewards distributed by
+            the invite)
+          </p>
+          <p className="st">Single sheet: 10000 tokens</p>
+          <p className="st">Single Mint fee: 0.1sol+sol real-time gas fee</p>
+        </div>
+        <div className="mint-rulers mint-rulers-b">
+          <p className="tt">MINT Rules</p>
+          <p className="st">
+            lnvite reward: Each successful invitation to a new user can earn 1
+            point.Obtain different levels of seed lnscription rewards based on
+            the total pointsearned
+          </p>
+          <div className="tables flex felx-row ">
+            {tables.map((table, i) => {
+              return (
+                <div className="line flex-1" key={i}>
+                  {table.map((item, index) => {
+                    return (
+                      <p key={item} className="line-i flex items-center justify-center">
+                        {i > 0 && index > 0 && <i></i>}
+                        {item}
+                      </p>
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
+        </div>
         <CircleG />
         <CircleG />
       </div>
