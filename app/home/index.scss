@@ -35,12 +35,40 @@
       position: relative;
     }
     .l-c {
-      width: 85px;
+      width: 66px;
       height: 66px;
-      background: url("/images/l-cir.png") no-repeat;
       position: absolute;
-      left: -10px;
+      // background: rgba(0, 255, 10, .1);
+      border: 1px solid #00ff0a;
+      backdrop-filter: blur(5px);
+      border-radius: 50%;
+      left: -0px;
       bottom: 9px;
+      .inn {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        background: rgba(0, 255, 10, 0.1);
+      }
+      .l-d {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        // background: rgba(0, 255, 10, .1);
+        border: 1px solid #00ff0a;
+        backdrop-filter: blur(5px);
+        border-radius: 50%;
+        left: -0px;
+        bottom: 9px;
+        margin-left: -15px;
+        margin-bottom: -15px;
+        .d-inn {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: rgba(0, 255, 10, 0.1);
+        }
+      }
     }
   }
   .op-c {
@@ -100,7 +128,6 @@
     text-align: center;
     position: relative;
     p {
-
     }
     .t {
       font-size: 36px;
@@ -258,6 +285,18 @@
     transition: all ease-in-out 0.3s;
     transform-origin: top;
     overflow: hidden;
+    &-0 {
+      height: 164px;
+    }
+    &-1 {
+      height: 267px;
+    }
+    &-2 {
+      height: 456px;
+    }
+    &-3 {
+      height: 481px;
+    }
   }
   .closed {
     height: 0;
@@ -265,7 +304,7 @@
     padding: 0;
   }
   .open {
-    height: 250px;
+    // height: 250px;
     opacity: 1;
   }
 }
