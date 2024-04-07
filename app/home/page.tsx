@@ -189,7 +189,13 @@ const Home = () => {
           more value and opportunities for users.
         </p>
         <div className="map"></div>
-        <Button size="small" className="text-3xl">
+        <Button
+          size="small"
+          className="text-3xl"
+          onClick={() =>
+            window.open("https://trees-protocol.gitbook.io/trees/")
+          }
+        >
           Read Whitepaper
         </Button>
       </div>
@@ -297,7 +303,11 @@ const Home = () => {
                   }}
                 />
               </p>
-              <div className={`qa-a qa-a-${i} pt-24px ${isActive ? "open" : "closed"}`}>
+              <div
+                className={`qa-a qa-a-${i} pt-24px ${
+                  isActive ? "open" : "closed"
+                }`}
+              >
                 {e.a}
               </div>
             </div>

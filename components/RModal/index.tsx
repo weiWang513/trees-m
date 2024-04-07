@@ -8,13 +8,13 @@ const RModal: React.FC = () => {
     { name: "Home", path: "/" },
     { name: "Reward", path: "/reward" },
     { name: "Seed Mint", path: "/seedMint" },
-    { name: "Whitepaper", path: "/whitepaper" },
+    // { name: "Whitepaper", path: "/whitepaper" },
   ];
   const [currentRoute, setCurrentRoute] = useState("");
   useEffect(() => {
     setCurrentRoute(location.pathname);
   }, []);
-  
+
   return (
     <div className="rmodal-container">
       <div className="routes flex flex-col items-center justify-center">
@@ -33,6 +33,14 @@ const RModal: React.FC = () => {
             </Link>
           );
         })}
+        <p
+          className="text-[#fff]"
+          onClick={() =>
+            window.open("https://trees-protocol.gitbook.io/trees/")
+          }
+        >
+          Docs
+        </p>
       </div>
       <CompC />
     </div>
