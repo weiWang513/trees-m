@@ -28,13 +28,13 @@ const Reward = () => {
         <CircleG />
       </div>
       <div className="main-g relative">
-        <p className="text-center">SEED Inscription</p>
+        <p className="text-center">SEED Genesis NFT</p>
         <p className="text-center">Invitation Reward</p>
       </div>
 
       <div className="op-c">
         <div className="border-c m-t flex flex-col relative">
-          <p className="t flex-1">My trees</p>
+          <p className="t flex-1">My trees XP</p>
           <p className="b flex-1">1000</p>
           <i className="r-i"></i>
         </div>
@@ -107,10 +107,10 @@ const Reward = () => {
             Sol address for the reward.
           </p>
           <p>
-            5. As an invitation reward, there are a total of 1035 Seed airdrops,
-            and if the ranking does not reach 500 people, Seeds that have not
-            been airdropped will be permanently destroyed by entering a black
-            hole address at the end of the airdrop.
+            5.The total amount of tokens airdropped as an invitation reward is
+            3,810,000, if the ranking of points does not reach 500 people, the
+            tokens that have not been airdropped will be permanently destroyed
+            in the black hole address at the end of the token airdrop.
           </p>
         </div>
         <div className="h flex flex-row">

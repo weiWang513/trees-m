@@ -29,15 +29,15 @@ const SeedMint = () => {
       <div className="op-c">
         {/* <CircleG /> */}
         <p className="t">SEED</p>
-        <p className="m">Total supply：40000</p>
+        <p className="m">Total supply：2100</p>
         <p className="b">
-          Trees Protocol Inscription is an introduction that covers all
-          developments within the ecosystem. Introducing Introducing, providing
-          exclusive access to cutting-edge data and tools, ensuring.
+          The SEED Genesis NFT is a passport to the TREES PROTOCOL ecosystem,
+          and possession of the SEED Genesis NFT will unlock all TREES PROTOCOL
+          entitlements and airdrops.
         </p>
         <i className="mint-m"></i>
         <div className="op flex flex-col items-center justify-center">
-          <p>MINT FEE: 0.1SOL+GAS</p>
+          <p>MINT PRICE: TBA</p>
           <Button size="small">Connect wallet</Button>
         </div>
       </div>

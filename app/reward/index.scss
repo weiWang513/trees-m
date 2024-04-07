@@ -73,6 +73,7 @@
     p {
       position: relative;
       z-index: 2;
+      
     }
     .m {
       font-size: 24px;
@@ -91,13 +92,13 @@
       z-index: 2;
       backdrop-filter: blur(65px);
       .t {
-        font-size: 24px;
-        text-align: left;
+        font-size: 30px;
+        text-align: center;
         border-bottom: 1px solid #00ff0a;
       }
       .b {
         font-size: 48px;
-        text-align: right;
+        text-align: center;
       }
       .r-i {
         display: inline-block;
